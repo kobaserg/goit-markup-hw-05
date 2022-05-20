@@ -484,10 +484,6 @@ h3 {
 
 /* Постоянные клиенты */
 
-
-
-
-
 .clients {
     font-weight: 700;
     font-size: 36px;
@@ -561,7 +557,7 @@ h3 {
 
 .footer-flex {
     display: flex;
-    justify-content: first baseline;
+    align-items: baseline;
     
 }
 
@@ -609,7 +605,6 @@ h3 {
 
     color: var(--our-team-card-cl);
 
-    padding-top: 12px;
     padding-bottom: 20px;
 }
 .join-list {
