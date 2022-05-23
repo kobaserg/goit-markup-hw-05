@@ -64,7 +64,21 @@
 
       <div class="hero">
         <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-        <button class="hero-button" type="button">Заказать услугу</button>
+        
+        <button class="hero-button" type="button" data-modal-open>Заказать услугу</button>
+
+        <div class="backdrop is-hidden" data-modal>
+          <div class="modal">
+            
+            <button class="close-position" data-modal-close>
+              <svg class="close-icon">
+                <use href="./images/Sprite.svg#icon-close"></use>
+              </svg>
+            </button>
+
+          </div>
+
+        </div>
       </div>
 
       <!-- Наши приоритеты-->
